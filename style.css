@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    background-image: url(bg1.jpg);
+    background-size: cover;
+    background-blend-mode: lighten;
+  }
+
+.logo {
+    width:  400px;
+    height: 150px;
+    margin: 10px;
+    box-shadow: 4px 4px 5px;
+    transition: all 1s;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size:  100px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 300%;
+    position: relative;
+    height: 110px;
+ }
+
+ .btn {
+    background-color: blue;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    margin-left: 45%;
+    margin-right: auto;
+    box-shadow: 4px 4px 5px rgb(61, 60, 60);
+ }   
+
+ .btn:hover {
+        background-color: red;
+        box-shadow: 4px 4px 5px rgb(61, 60, 60);
+}
